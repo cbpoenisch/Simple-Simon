@@ -1,8 +1,54 @@
 <!DOCTYPE <html>
 <head>
 	<title>Simple Simon</title>
+	<style type="text/css" src="simplesimon.css"></style>
 </head>
 <body>
-Simple Simon is Simple
+	<div class="wrapper">
+	<!-- This div is for the back ground of the game -->
+		<div class="game_background">
+	<!-- these are my color boxes for the game -->
+			<div class="pad1 pad"></div>
+			<div class="pad2 pad"></div>
+			<div class="pad3 pad"></div>
+			<div class="pad4 pad"></div>
+		</div>
+
+		<div class="circle"></div>
+	</div>
+
+<!-- This section is for difficulty, levels, score etc. -->
+	</div>
+		<div class="level">
+      		<h2>Level: 1</h2>
+    	</div>
+
+	    <div class="score">
+	      <h2>Score: 0</h2>
+	    </div>
+	    
+	    <ul class="difficulty">
+			<li>
+	        	<input type="radio" class="difOpt" name="difficulty" value="2">Easy
+	      	</li>
+
+	      	<li>
+	        	<input type="radio" class="difOpt" name="difficulty" value="1" checked>Normal
+	      	</li>
+
+	      	<li>
+	        	<input type="radio" class="difOpt" name="difficulty" value="0.5">Hard
+	      	</li>
+
+	      	<li>
+	        	<input type="radio" class="difOpt" name="difficulty" value="0.25">Insane
+	      	</li>
+	    </ul>
+
+	    <div class="sButton">
+	      <button class="start">start</button>
+	    </div>
+
+  	</div>
 </body>
 </html>
