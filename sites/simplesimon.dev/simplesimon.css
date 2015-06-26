@@ -5,3 +5,77 @@ html {
     box-sizing: inherit;
 }
 
+.wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 640px;
+	border: 10px solid black;
+}
+.game_background {
+	position: absolute;
+	width: 640px;
+	height: 640px;
+	border: 10px solid black;
+}
+.pad {
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 10px;
+	opacity: 0.6;
+}
+
+.circle { 
+	position: absolute;
+	top: 195px;
+	left: 195px;
+	width: 250px;
+	height: 250px;
+	background: #000;
+	border-radius: 125px;
+}
+
+.pad1 {
+	border-top-left-radius: 300px;
+  	background-color: green;
+}
+
+.pad2 {
+	float: left;
+	border-top-right-radius: 300px;
+	background-color: red;
+	clear: right;
+}
+
+.pad3 {
+	float: left;
+	border-bottom-left-radius: 300px;
+	background-color: yellow;
+	clear: left;
+}
+
+.pad4 {
+	float: left;
+	border-bottom-right-radius: 300px;
+	background-color: blue;
+}
+
+.level, .score {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+.sButton {
+	width: 30%;
+	margin: 0 auto;
+}
+
+.start {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+}
+
+
+

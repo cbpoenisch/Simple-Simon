@@ -1,0 +1,72 @@
+/*
+Theme Name: Theme 1
+Theme URI: Theme1
+Author: Crystal Poenisch	
+Author URI: (Your page url)
+Description: This is my very first wordpress theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: tags, if, for, searching, on, wordpress, if, you, launch, it
+Text Domain: (unique name for your theme, for separation. also used for transalation file)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+
+
+body {
+	font-family: 'Bangers';
+	font-size: 0.8em;
+    width: 100%;
+    height: 100%;
+}
+.header {
+	background-color: #1be;
+    margin-left: 14%;
+    top: 0;
+    border-width: 0.1em;
+    border-color: #999;
+    border-style: solid;
+    width: 72%;
+    height: 250px;
+}
+
+.content-area {
+    background-color: #161137;
+    margin-left: 14%;
+    margin-top: 5px;
+    float: left;
+    width: 46%;
+    border-width: 0.1em;
+    border-color: grey;
+    border-style: solid;
+}
+.sidebar {
+	position: relative; 
+	float: right; 
+	width: 170px;
+    font-size: 90%; 
+    border-right: solid 1px gray; 
+    background-color: #585184;
+}
+.footer {
+    background-color: #585184;
+    margin-left: 14%;
+    float: left;
+    margin-top: 5px;
+    width: 72%;
+    height: 50px;
+    border-width: 0.1em;
+    border-color: #999;
+    border-style: solid;
+}
+.page-title {
+	font-family: 'Bangers';
+	font-size: 8em;
+    width: 100%;
+    height: 100%;
+}
